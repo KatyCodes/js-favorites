@@ -3,8 +3,9 @@
   <head>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/bootstrap.min.js"></script>
+
     <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
     <title>Buddy the elf, what's your favorite color??</title>
   </head>
@@ -13,10 +14,16 @@
       <h1>FAV THINGS</h1>
 
       <form>
+        <!--question1-->
         <div class="form-group">
           <label for="name">Enter your name</label>
           <input id="name" class="form-control" type="text">
           <p class="error">Please enter your name before submitting</p>
+        </div>
+        <!--question2-->
+        <div class="form-group">
+          <label for="candy">What is your favorite type of candy?</label>
+          <input id="candy" class="form-control" type="text">
         </div>
         <button type="submit" class= "btn btn-success">Submit</button>
       </form>
